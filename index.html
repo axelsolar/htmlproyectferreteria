@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos con Reseñas</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1>Bienvenidos a nuestra tienda</h1>
+    </section>
+
+    <section id="productos">
+      <article class="producto">
+        <h2>Tornillos para madera negro 15mm</h2>
+        <img src="img/tornillos_madera_negro_15mm.jpg" alt="Tornillos para madera negro 15mm" />
+        <div class="reseñas">
+          <h3>Reseñas</h3>
+          <p>Buen agarre y resistente.</p>
+          <p>Perfectos para proyectos pequeños.</p>
+          <p>Buena calidad, recomendable.</p>
+        </div>
+      </article>
+      <article class="producto">
+        <h2>Taladro eléctrico portátil</h2>
+        <img src="img/taladro_electrico_portatil.jpg" alt="Taladro eléctrico portátil" />
+        <div class="reseñas">
+          <h3>Reseñas</h3>
+          <p>Ligero y fácil de usar.</p>
+          <p>Potente para su tamaño.</p>
+          <p>Batería dura bastante.</p>
+        </div>
+      </article>
+      <article class="producto">
+        <h2>Lámpara LED de 7 watts</h2>
+        <img src="img/lampara_led_7w.jpg" alt="Lámpara LED de 7 watts" />
+        <div class="reseñas">
+          <h3>Reseñas</h3>
+          <p>Ilumina muy bien.</p>
+          <p>Eficiente y duradera.</p>
+          <p>Excelente para lectura.</p>
+        </div>
+      </article>
+      <article class="producto">
+        <h2>Atornillador Philips de 12mm</h2>
+        <img src="img/atornillador_philips_12mm.jpg" alt="Atornillador Philips de 12mm" />
+        <div class="reseñas">
+          <h3>Reseñas</h3>
+          <p>Muy cómodo y práctico.</p>
+          <p>Perfecto para uso frecuente.</p>
+          <p>Material resistente.</p>
+        </div>
+      </article>
+      <article class="producto">
+        <h2>Pala de cavar plana de hierro</h2>
+        <img src="img/pala_cavar_plana_hierro.jpg" alt="Pala de cavar plana de hierro" />
+        <div class="reseñas">
+          <h3>Reseñas</h3>
+          <p>Fuerte y duradera.</p>
+          <p>Mango cómodo.</p>
+          <p>Ideal para jardín.</p>
+        </div>
+      </article>
+      <article class="producto">
+        <h2>Madera 60x100mm</h2>
+        <img src="img/madera_60x100mm.jpg" alt="Madera 60x100mm" />
+        <div class="reseñas">
+          <h3>Reseñas</h3>
+          <p>De buena calidad.</p>
+          <p>Perfecta para construcciones.</p>
+          <p>Resistente y firme.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="https://formspree.io/f/xpzyzrow" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required />
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Tienda de productos</p>
+  </footer>
+</body>
+</html>
